@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# Simple note-taking script
+# Author : Jordan Ames
+
+# Always list all of your variables in the beggining of the script.
+# It is also important to list them by call order - Which one will be used before the other?
+# Example: topic is part of filename so topic needs to be listed before filename
+
+ # get the date
+date=$(date)
+ # set the topic
+topic="$1"
+ # set the filename to write to
+filename="${HOME}/notes/${topic}notes.txt"
+ # Ask user for input while setting the variable '$note'
+read -rp  "Your note:" note
+
+if [[ $note ]]; then
+    echo "$date: $note" >> "$filename"
+    echo "Note '$note' saved to $filename"
+else
+    echo "No input; note wasn't saved."
+fi
