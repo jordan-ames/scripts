@@ -1,0 +1,11 @@
+bear () {
+    while :; do
+        printf '%s\r' "  ʕl•ᴥ•ʔl ┬─┬         "
+        sleep 1
+        printf '%s\r' "  ʕ\•ᴥ•ʔ\ ﾉ┬─┬        "
+        sleep 1
+        printf '%s\r' "  ʕノ•ᴥ•ʔノ ︵ ┻━┻     "
+        sleep 1
+    done
+    echo
+}

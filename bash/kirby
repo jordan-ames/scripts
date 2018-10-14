@@ -1,0 +1,11 @@
+kirby () {
+    while :; do
+        printf '%s\r' "  (>'.')>"
+        sleep 1
+        printf '%s\r' "  <('.'<)"
+        sleep 1
+        printf '%s\r' "  ^('.'<)"
+        sleep 1
+    done
+    echo
+}
