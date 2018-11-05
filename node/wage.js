@@ -1,4 +1,4 @@
-var wage = 27.9 ;
+var wage = 10.15 ;
     reg = (wage).toFixed(2) ;
     ot = (1.5 * wage).toFixed(2) ;
     reghr = 160 ;
