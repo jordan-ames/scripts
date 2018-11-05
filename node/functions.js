@@ -18,6 +18,6 @@ console.log(fourthDie);
 var fifthDie = getDieRoll(20);
 console.log(fifthDie);
 
-console.log( )
+console.log( );
 
 console.log('Total');console.log(firstDie + secondDie + thirdDie + fourthDie + fifthDie);
